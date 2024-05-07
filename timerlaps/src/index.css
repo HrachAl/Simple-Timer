@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  width: 400px;
+  height: min-content;
+  min-height: 400px;
+  text-align: center;
+  margin: 50px auto;
+  border: 1px solid rgb(165, 163, 163);
+  border-radius: 1em;
+}
+
+.display{
+  font-size: 24px;
+  margin-left: 2px;
+  margin: 10px;
+}
+
+.buttons button{
+  padding: 12px 24px;
+  margin: 0 6px;
+  border-radius: 8px;
+  color: #000;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.laps{
+  margin-top: 5px;
+  border: 1px solid gray;
+  width: max-content;
+  height: max-content;
+  text-align: center;
+  margin: 20px auto;
+  width: 70%;
+  height: min-content;
+  padding: 10px 0;
+}
+
+.laps div {
+  font-size: 22px;
+}
+h1{
+  text-align: center;
+  margin-top: 15px;
+}
+
